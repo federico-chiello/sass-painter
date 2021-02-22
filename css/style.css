@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  height: 100px;
+  background-color: black;
+}
+header .container {
+  width: 1170px;
+  margin: 0 auto;
+  background-color: lightblue;
+}
+header .top {
+  height: 50px;
+}
+header .bottom {
+  height: calc(100px - 50px);
+}

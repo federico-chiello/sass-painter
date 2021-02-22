@@ -1,0 +1,8 @@
+// COLORI
+$colorBlack: black;
+
+// ALTEZZE E LARGHEZZE
+// Header
+$headerHeight: 100px;
+$headerTop: 50px;
+$headerBottom: calc(#{$headerHeight} - #{$headerTop});

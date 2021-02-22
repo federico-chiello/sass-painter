@@ -1,0 +1,14 @@
+header {
+  height: $headerHeight;
+  background-color: $colorBlack;
+  .container{
+    @include container;
+    background-color: lightblue;
+  }
+  .top{
+    height: $headerTop;
+  }
+  .bottom{
+    height: $headerBottom;
+  }
+}
