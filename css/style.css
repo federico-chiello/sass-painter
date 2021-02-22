@@ -271,3 +271,36 @@ footer .top .container .social ul li a i#youtube {
 footer .top .container .social ul li a i#pinterest {
   color: #bd081c;
 }
+footer .bottom {
+  background-color: black;
+  padding: 20px 0;
+}
+footer .bottom .container {
+  width: 1170px;
+  margin: 0 auto;
+}
+footer .bottom .container .images {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+footer .bottom .container .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+footer .bottom .container .nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-between;
+  align-items: center;
+}
+footer .bottom .container .nav ul li a {
+  color: grey;
+}
+footer .bottom .container .nav ul li a:hover {
+  color: lightgrey;
+  text-decoration: underline;
+}

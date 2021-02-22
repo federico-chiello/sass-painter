@@ -55,6 +55,28 @@ footer{
     }
   }
   .bottom{
-
+    background-color: $colorBlack;
+    padding: 20px 0;
+    .container{
+      @include container;
+      .images{
+        @include flex(row, flex-start, center);
+      }
+      .nav{
+        @include flex(row, flex-end, center);
+        ul{
+          @include flex(row, flex-between, center);
+          li{
+            a{
+              color: $colorGrey;
+              &:hover{
+                color: $colorLightGrey;
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
