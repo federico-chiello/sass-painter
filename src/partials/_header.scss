@@ -3,7 +3,6 @@ header {
   background-color: $colorBlack;
   .container{
     @include container;
-    background-color: lightblue;
   }
   .top{
     height: $headerTop;
@@ -12,7 +11,12 @@ header {
       ul{
         @include flex(row, space-between);
         li{
-          padding-right: $padding-#{$2};
+          i{
+            color: $colorSky;
+          }
+          a{
+            color: $colorLightGrey;
+          }
         }
       }
     }

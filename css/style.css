@@ -39,10 +39,9 @@ header {
 header .container {
   width: 1170px;
   margin: 0 auto;
-  background-color: lightblue;
 }
 header .top {
-  height: 50px;
+  height: 45px;
 }
 header .top nav {
   display: flex;
@@ -56,6 +55,12 @@ header .top nav ul {
   justify-content: space-between;
   align-items: center;
 }
+header .top nav ul li i {
+  color: #009cff;
+}
+header .top nav ul li a {
+  color: lightgrey;
+}
 header .bottom {
-  height: calc(100px - 50px);
+  height: calc(100px - 45px);
 }
