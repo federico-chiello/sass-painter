@@ -18,6 +18,48 @@
   padding-right: 50px;
 }
 
+.pd_b-1 {
+  padding-bottom: 10px;
+}
+
+.pd_b-2 {
+  padding-bottom: 20px;
+}
+
+.pd_b-3 {
+  padding-bottom: 30px;
+}
+
+.pd_b-4 {
+  padding-bottom: 40px;
+}
+
+.pd_b-5 {
+  padding-bottom: 50px;
+}
+
+main .jumbotron .btn {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+main .jumbotron .btn .left a {
+  color: white;
+  text-transform: uppercase;
+  background-color: black;
+  padding: 10px 30px;
+  font-size: 22px;
+}
+main .jumbotron .btn .right a {
+  color: black;
+  border: 1px solid black;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  font-size: 22px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -103,7 +145,7 @@ li.dropdown-parent {
   position: relative;
 }
 li.dropdown-parent .dropdown {
-  width: 200px;
+  width: 230px;
   position: absolute;
   top: calc(100px - 45px);
   left: 0;
@@ -128,5 +170,49 @@ main .jumbotron {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+main .jumbotron .container {
+  width: 1170px;
+  margin: 0 auto;
+}
+main .jumbotron .text {
+  width: 50%;
+}
+main .jumbotron .text img {
+  width: 280px;
+}
+main .jumbotron .text p, main .jumbotron .text h3 {
+  font-size: 22px;
+}
+main .jumbotron .text p:last-child, main .jumbotron .text h3 {
+  color: #ca1eb5;
+  font-style: italic;
+  font-size: 18px;
+}
+
+main .jumbotron .btn {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+main .jumbotron .btn .left a {
+  color: white;
+  text-transform: uppercase;
+  background-color: black;
+  padding: 10px 30px;
+  font-size: 22px;
+}
+main .jumbotron .btn .right a {
+  color: black;
+  border: 1px solid black;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  font-size: 22px;
 }

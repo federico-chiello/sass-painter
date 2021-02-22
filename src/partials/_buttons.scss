@@ -1,0 +1,26 @@
+main{
+  .jumbotron{
+    .btn{
+      width: 50%;
+      @include flex(row, flex-start, flex-start);
+      .left{
+        a{
+          color: $colorWhite;
+          text-transform: uppercase;
+          background-color: $colorBlack;
+          padding: 10px 30px;
+          font-size: 22px;
+        }
+      }
+      .right{
+        a{
+          color: $colorBlack;
+          border: 1px solid $colorBlack;
+          text-transform: uppercase;
+          padding: 10px 30px;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}

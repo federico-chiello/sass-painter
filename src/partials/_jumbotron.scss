@@ -4,6 +4,25 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    // height: 500px;
+    padding: $pd_100 0;
+    @include flex(column, center, flex-start);
+    .container{
+      @include container;
+    }
+    .text{
+      width: 50%;
+      img{
+        width: 280px;
+      }
+      p, h3{
+        font-size: 22px;
+      }
+      & p:last-child, h3 {
+        color: $colorFuchsia;
+        font-style: italic;
+        font-size: 18px;
+      }
+    }
   }
 }
