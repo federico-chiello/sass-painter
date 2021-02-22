@@ -98,3 +98,11 @@ nav.nav-bottom ul li:hover {
 nav.nav-bottom ul li:hover a {
   color: black;
 }
+
+main .jumbotron {
+  background-image: url("../img/bg-painter-home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
