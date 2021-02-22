@@ -1,7 +1,35 @@
+.padding-1 {
+  padding: 10px;
+}
+
+.padding-2 {
+  padding: 20px;
+}
+
+.padding-3 {
+  padding: 30px;
+}
+
+.padding-4 {
+  padding: 40px;
+}
+
+.padding-5 {
+  padding: 50px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -15,6 +43,18 @@ header .container {
 }
 header .top {
   height: 50px;
+}
+header .top nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .top nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 header .bottom {
   height: calc(100px - 50px);

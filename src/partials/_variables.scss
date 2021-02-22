@@ -6,3 +6,10 @@ $colorBlack: black;
 $headerHeight: 100px;
 $headerTop: 50px;
 $headerBottom: calc(#{$headerHeight} - #{$headerTop});
+
+// PADDING e MARGIN
+@for $i from 1 through 5 {
+  .padding-#{$i}{
+    padding: 10px * $i;
+  }
+}

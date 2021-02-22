@@ -7,6 +7,15 @@ header {
   }
   .top{
     height: $headerTop;
+    nav{
+      @include flex(row, flex-end);
+      ul{
+        @include flex(row, space-between);
+        li{
+          padding-right: $padding-#{$2};
+        }
+      }
+    }
   }
   .bottom{
     height: $headerBottom;
