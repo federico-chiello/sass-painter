@@ -99,6 +99,30 @@ nav.nav-bottom ul li:hover a {
   color: black;
 }
 
+li.dropdown-parent {
+  position: relative;
+}
+li.dropdown-parent .dropdown {
+  width: 200px;
+  position: absolute;
+  top: calc(100px - 45px);
+  left: 0;
+  background-color: white;
+  display: none;
+}
+li.dropdown-parent .dropdown ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+li.dropdown-parent .dropdown ul li:hover {
+  background-color: lightgrey;
+}
+li.dropdown-parent:hover .dropdown {
+  display: block;
+}
+
 main .jumbotron {
   background-image: url("../img/bg-painter-home.jpg");
   background-position: center;
