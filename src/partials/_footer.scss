@@ -1,0 +1,60 @@
+footer{
+  color: $colorIvory;
+  height: 400px;
+  .top{
+    padding: 80px 0;
+    .container{
+      @include container;
+      .boxes{
+        @include flex(row, space-between, center);
+        .box{
+          h4{
+            color: $colorBlack;
+          }
+          ul{
+            li{
+              a{
+                color: $colorGrey;
+                &:hover{
+                  color: $colorBlack;
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+        }
+      }
+      .social{
+        padding: 40px 0;
+        ul{
+          @include flex(row, flex-end, center);
+          li{
+            a{
+              i{
+                font-size: 40px;
+                &#instagram{
+                  color: $colorInstagram;
+                }
+                &#facebook{
+                  color: $colorFacebook;
+                }
+                &#twitter{
+                  color: $colorTwitter;
+                }
+                &#youtube{
+                  color: $colorYouTube;
+                }
+                &#pinterest{
+                  color: $colorPinterest;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .bottom{
+
+  }
+}

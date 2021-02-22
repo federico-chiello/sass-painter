@@ -216,3 +216,58 @@ main .jumbotron .btn .right a {
   padding: 10px 30px;
   font-size: 22px;
 }
+
+footer {
+  color: #ececec;
+  height: 400px;
+}
+footer .top {
+  padding: 80px 0;
+}
+footer .top .container {
+  width: 1170px;
+  margin: 0 auto;
+}
+footer .top .container .boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .top .container .boxes .box h4 {
+  color: black;
+}
+footer .top .container .boxes .box ul li a {
+  color: grey;
+}
+footer .top .container .boxes .box ul li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+footer .top .container .social {
+  padding: 40px 0;
+}
+footer .top .container .social ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+footer .top .container .social ul li a i {
+  font-size: 40px;
+}
+footer .top .container .social ul li a i#instagram {
+  color: #e4405f;
+}
+footer .top .container .social ul li a i#facebook {
+  color: #3b5998;
+}
+footer .top .container .social ul li a i#twitter {
+  color: #1da1f2;
+}
+footer .top .container .social ul li a i#youtube {
+  color: #cd201f;
+}
+footer .top .container .social ul li a i#pinterest {
+  color: #bd081c;
+}
