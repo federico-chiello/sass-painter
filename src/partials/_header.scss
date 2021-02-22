@@ -16,6 +16,10 @@ header {
           }
           a{
             color: $colorLightGrey;
+            &:hover{
+              color: $colorWhite;
+              text-decoration: underline;
+            }
           }
         }
       }
@@ -23,5 +27,11 @@ header {
   }
   .bottom{
     height: $headerBottom;
+    @include flex(row, space-between);
+    .image {
+      img{
+        width: 100px;
+      }
+    }
   }
 }

@@ -1,7 +1,9 @@
 // COLORI
 $colorBlack: black;
+$colorWhite: white;
 $colorSky: #009cff;
 $colorLightGrey: lightgrey;
+$colorGrey: grey;
 
 // ALTEZZE E LARGHEZZE
 // Header
@@ -12,6 +14,6 @@ $headerBottom: calc(#{$headerHeight} - #{$headerTop});
 // PADDING e MARGIN
 @for $i from 1 through 5 {
   .padding-#{$i}{
-    padding: 10px*$i;
+    padding-right: 10px*$i;
   }
 }

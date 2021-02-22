@@ -1,0 +1,21 @@
+nav.nav-bottom{
+  ul{
+    @include flex(row, space-between);
+    li{
+      padding: 20px;
+      a{
+        color: $colorWhite;
+      }
+      i{
+        color: $colorGrey;
+        font-size: 10px;
+      }
+      &:hover{
+        background-color: $colorWhite;
+        a{
+          color: $colorBlack;
+        }
+      }
+    }
+  }
+}

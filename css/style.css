@@ -1,21 +1,21 @@
 .padding-1 {
-  padding: 10px;
+  padding-right: 10px;
 }
 
 .padding-2 {
-  padding: 20px;
+  padding-right: 20px;
 }
 
 .padding-3 {
-  padding: 30px;
+  padding-right: 30px;
 }
 
 .padding-4 {
-  padding: 40px;
+  padding-right: 40px;
 }
 
 .padding-5 {
-  padding: 50px;
+  padding-right: 50px;
 }
 
 * {
@@ -61,6 +61,40 @@ header .top nav ul li i {
 header .top nav ul li a {
   color: lightgrey;
 }
+header .top nav ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
 header .bottom {
   height: calc(100px - 45px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .bottom .image img {
+  width: 100px;
+}
+
+nav.nav-bottom ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav.nav-bottom ul li {
+  padding: 20px;
+}
+nav.nav-bottom ul li a {
+  color: white;
+}
+nav.nav-bottom ul li i {
+  color: grey;
+  font-size: 10px;
+}
+nav.nav-bottom ul li:hover {
+  background-color: white;
+}
+nav.nav-bottom ul li:hover a {
+  color: black;
 }
