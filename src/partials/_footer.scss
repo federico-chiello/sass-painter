@@ -1,5 +1,4 @@
 footer{
-  height: 400px;
   .top{
     background-color: $colorIvory;
     padding: 80px 0;
@@ -73,6 +72,9 @@ footer{
                 color: $colorLightGrey;
                 text-decoration: underline;
               }
+            }
+            &:last-child{
+              color: $colorWhite;
             }
           }
         }

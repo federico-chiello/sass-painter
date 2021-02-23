@@ -1,6 +1,7 @@
 main{
   section#more{
     background-color: $colorSectionMore;
+    padding-bottom: 80px;
     .container{
       @include container;
       h2 {
@@ -68,7 +69,6 @@ main{
             }
           }
         }
-
       }
     }
   }

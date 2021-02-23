@@ -198,6 +198,7 @@ main section#jumbotron .text p:last-child, main section#jumbotron .text h3 {
 
 main section#more {
   background-color: #e8e8e8;
+  padding-bottom: 80px;
 }
 main section#more .container {
   width: 1170px;
@@ -261,6 +262,33 @@ main section#more .container .boxes .box:nth-child(3) a .image {
   background-size: cover;
 }
 
+main section#wacom {
+  background-color: #e8e8e8;
+}
+main section#wacom .container {
+  width: 1170px;
+  margin: 0 auto;
+}
+main section#wacom .container .boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main section#wacom .container .boxes .box {
+  width: calc(100% / 2);
+  height: 350px;
+}
+main section#wacom .container .boxes .box:nth-child(2) {
+  background-image: url("../img/wacom-painter.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main section#wacom .container .boxes .box:nth-child(2) img {
+  width: 500px;
+}
+
 main section#jumbotron .btn {
   width: 50%;
   display: flex;
@@ -283,9 +311,6 @@ main section#jumbotron .btn .right a {
   font-size: 22px;
 }
 
-footer {
-  height: 400px;
-}
 footer .top {
   background-color: #ececec;
   padding: 80px 0;
@@ -369,4 +394,7 @@ footer .bottom .container .nav ul li a {
 footer .bottom .container .nav ul li a:hover {
   color: lightgrey;
   text-decoration: underline;
+}
+footer .bottom .container .nav ul li:last-child {
+  color: white;
 }

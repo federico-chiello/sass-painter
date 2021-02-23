@@ -1,0 +1,25 @@
+main{
+  section#wacom{
+    background-color: $colorSectionMore;
+    .container{
+      @include container;
+      .boxes{
+        @include flex(row, center);
+        .box{
+          width: calc(100% / 2);
+          height: 350px;
+          &:nth-child(2){
+            background-image: url('../img/wacom-painter.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            img{
+              width: 500px;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
