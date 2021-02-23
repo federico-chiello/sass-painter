@@ -47,6 +47,26 @@ main{
             }
           }
         }
+        .third-row{
+          @include flex(row, center);
+          .box{
+            width: calc(100% / 2);
+            height: 350px;
+            &:first-child{
+              background-color: $colorTwitter;
+              color: $colorWhite;
+              @include flex(column, center, flex-start);
+              font-size: 22px;
+              padding: 40px;
+            }
+            &:nth-child(2){
+              background-image: url('../img/business-education.jpg');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+          }
+        }
       }
     }
   }

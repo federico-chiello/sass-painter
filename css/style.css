@@ -332,6 +332,32 @@ main section#wacom .container .boxes .second-row .box:nth-child(2) {
   font-size: 22px;
   padding: 40px;
 }
+main section#wacom .container .boxes .third-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main section#wacom .container .boxes .third-row .box {
+  width: calc(100% / 2);
+  height: 350px;
+}
+main section#wacom .container .boxes .third-row .box:first-child {
+  background-color: #1da1f2;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 22px;
+  padding: 40px;
+}
+main section#wacom .container .boxes .third-row .box:nth-child(2) {
+  background-image: url("../img/business-education.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 main section#jumbotron .btn {
   width: 50%;
