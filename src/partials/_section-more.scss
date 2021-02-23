@@ -1,0 +1,75 @@
+main{
+  section#more{
+    background-color: $colorSectionMore;
+    .container{
+      @include container;
+      h2 {
+        text-align: center;
+        font-size: 30px;
+        padding: 50px 0 20px 0;
+        color: $colorLightBlack;
+      }
+      .boxes{
+        @include flex(row, space-between, center);
+        .box{
+          width: calc(100% / 3 - 20px);
+          height: 350px;
+          background-color: white;
+          a{
+            .image{
+              height: 60%;
+              background-image: url('../img/ptr-module.jpg');
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+            }
+            .text{
+              padding: 20px;
+              h3{
+                color: $colorLightBlack;
+                span{
+                  color: $colorTwitter;
+                  font-style: italic;
+                }
+              }
+              p{
+                color: $colorGrey;
+              }
+              .learn{
+                color: $colorTwitter;
+              }
+            }
+          }
+          &:hover {
+            .learn{
+              text-decoration: underline;
+            }
+          }
+          &:nth-child(2){
+            a{
+              .image{
+                height: 60%;
+                background-image: url('../img/particleshop-module.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+              }
+            }
+          }
+          &:nth-child(3){
+            a{
+              .image{
+                height: 60%;
+                background-image: url('../img/brush-pack-module.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+}

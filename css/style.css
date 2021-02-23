@@ -38,21 +38,21 @@
   padding-bottom: 50px;
 }
 
-main .jumbotron .btn {
+main section#jumbotron .btn {
   width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
 }
-main .jumbotron .btn .left a {
+main section#jumbotron .btn .left a {
   color: white;
   text-transform: uppercase;
   background-color: black;
   padding: 10px 30px;
   font-size: 22px;
 }
-main .jumbotron .btn .right a {
+main section#jumbotron .btn .right a {
   color: black;
   border: 1px solid black;
   text-transform: uppercase;
@@ -166,7 +166,7 @@ li.dropdown-parent:hover .dropdown {
   display: block;
 }
 
-main .jumbotron {
+main section#jumbotron {
   background-image: url("../img/bg-painter-home.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -177,40 +177,105 @@ main .jumbotron {
   justify-content: center;
   align-items: flex-start;
 }
-main .jumbotron .container {
+main section#jumbotron .container {
   width: 1170px;
   margin: 0 auto;
 }
-main .jumbotron .text {
+main section#jumbotron .text {
   width: 50%;
 }
-main .jumbotron .text img {
+main section#jumbotron .text img {
   width: 280px;
 }
-main .jumbotron .text p, main .jumbotron .text h3 {
+main section#jumbotron .text p, main section#jumbotron .text h3 {
   font-size: 22px;
 }
-main .jumbotron .text p:last-child, main .jumbotron .text h3 {
+main section#jumbotron .text p:last-child, main section#jumbotron .text h3 {
   color: #ca1eb5;
   font-style: italic;
   font-size: 18px;
 }
 
-main .jumbotron .btn {
+main section#more {
+  background-color: #e8e8e8;
+}
+main section#more .container {
+  width: 1170px;
+  margin: 0 auto;
+}
+main section#more .container h2 {
+  text-align: center;
+  font-size: 30px;
+  padding: 50px 0 20px 0;
+  color: #333333;
+}
+main section#more .container .boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+main section#more .container .boxes .box {
+  width: calc(100% / 3 - 20px);
+  height: 350px;
+  background-color: white;
+}
+main section#more .container .boxes .box a .image {
+  height: 60%;
+  background-image: url("../img/ptr-module.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+main section#more .container .boxes .box a .text {
+  padding: 20px;
+}
+main section#more .container .boxes .box a .text h3 {
+  color: #333333;
+}
+main section#more .container .boxes .box a .text h3 span {
+  color: #1da1f2;
+  font-style: italic;
+}
+main section#more .container .boxes .box a .text p {
+  color: grey;
+}
+main section#more .container .boxes .box a .text .learn {
+  color: #1da1f2;
+}
+main section#more .container .boxes .box:hover .learn {
+  text-decoration: underline;
+}
+main section#more .container .boxes .box:nth-child(2) a .image {
+  height: 60%;
+  background-image: url("../img/particleshop-module.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+main section#more .container .boxes .box:nth-child(3) a .image {
+  height: 60%;
+  background-image: url("../img/brush-pack-module.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+main section#jumbotron .btn {
   width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
 }
-main .jumbotron .btn .left a {
+main section#jumbotron .btn .left a {
   color: white;
   text-transform: uppercase;
   background-color: black;
   padding: 10px 30px;
   font-size: 22px;
 }
-main .jumbotron .btn .right a {
+main section#jumbotron .btn .right a {
   color: black;
   border: 1px solid black;
   text-transform: uppercase;
@@ -219,10 +284,10 @@ main .jumbotron .btn .right a {
 }
 
 footer {
-  color: #ececec;
   height: 400px;
 }
 footer .top {
+  background-color: #ececec;
   padding: 80px 0;
 }
 footer .top .container {

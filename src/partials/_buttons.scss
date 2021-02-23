@@ -1,5 +1,5 @@
 main{
-  .jumbotron{
+  section#jumbotron{
     .btn{
       width: 50%;
       @include flex(row, flex-start, flex-start);
