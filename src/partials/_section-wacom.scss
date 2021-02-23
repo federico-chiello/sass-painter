@@ -4,21 +4,49 @@ main{
     .container{
       @include container;
       .boxes{
-        @include flex(row, center);
-        .box{
-          width: calc(100% / 2);
-          height: 350px;
-          &:nth-child(2){
-            background-image: url('../img/wacom-painter.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            img{
-              width: 500px;
+        .first-row{
+          @include flex(row, center);
+          .box{
+            width: calc(100% / 2);
+            height: 350px;
+            &:first-child{
+              background-color: rgb(70, 0, 103);
+              color: $colorWhite;
+              @include flex(column, center, flex-start);
+              font-size: 22px;
+              padding: 40px;
+            }
+            &:nth-child(2){
+              background-image: url('../img/wacom-painter.jpg');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              img{
+                width: 500px;
+              }
             }
           }
         }
-
+        .second-row{
+          @include flex(row, center);
+          .box{
+            width: calc(100% / 2);
+            height: 350px;
+            &:first-child{
+              background-image: url('../img/painter-master.jpg');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            &:nth-child(2){
+              background-color: rgba(0, 0, 0, 0.83);
+              color: $colorWhite;
+              @include flex(column, center, flex-start);
+              font-size: 22px;
+              padding: 40px;
+            }
+          }
+        }
       }
     }
   }

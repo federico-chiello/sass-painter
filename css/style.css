@@ -59,6 +59,14 @@ main section#jumbotron .btn .right a {
   padding: 10px 30px;
   font-size: 22px;
 }
+main section#wacom .btn {
+  text-transform: uppercase;
+  background-color: white;
+  padding: 5px 20px;
+}
+main section#wacom .btn a {
+  color: #333333;
+}
 
 * {
   margin: 0;
@@ -269,24 +277,60 @@ main section#wacom .container {
   width: 1170px;
   margin: 0 auto;
 }
-main section#wacom .container .boxes {
+main section#wacom .container .boxes .first-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-main section#wacom .container .boxes .box {
+main section#wacom .container .boxes .first-row .box {
   width: calc(100% / 2);
   height: 350px;
 }
-main section#wacom .container .boxes .box:nth-child(2) {
+main section#wacom .container .boxes .first-row .box:first-child {
+  background-color: #460067;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 22px;
+  padding: 40px;
+}
+main section#wacom .container .boxes .first-row .box:nth-child(2) {
   background-image: url("../img/wacom-painter.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-main section#wacom .container .boxes .box:nth-child(2) img {
+main section#wacom .container .boxes .first-row .box:nth-child(2) img {
   width: 500px;
+}
+main section#wacom .container .boxes .second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main section#wacom .container .boxes .second-row .box {
+  width: calc(100% / 2);
+  height: 350px;
+}
+main section#wacom .container .boxes .second-row .box:first-child {
+  background-image: url("../img/painter-master.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main section#wacom .container .boxes .second-row .box:nth-child(2) {
+  background-color: rgba(0, 0, 0, 0.83);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 22px;
+  padding: 40px;
 }
 
 main section#jumbotron .btn {
@@ -309,6 +353,14 @@ main section#jumbotron .btn .right a {
   text-transform: uppercase;
   padding: 10px 30px;
   font-size: 22px;
+}
+main section#wacom .btn {
+  text-transform: uppercase;
+  background-color: white;
+  padding: 5px 20px;
+}
+main section#wacom .btn a {
+  color: #333333;
 }
 
 footer .top {

@@ -23,4 +23,14 @@ main{
       }
     }
   }
+  section#wacom{
+    .btn{
+      text-transform: uppercase;
+      background-color: $colorWhite;
+      padding: 5px 20px;
+      a{
+        color: $colorLightBlack;
+      }
+    }
+  }
 }
