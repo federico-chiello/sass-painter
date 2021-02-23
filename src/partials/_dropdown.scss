@@ -11,6 +11,7 @@ li.dropdown-parent{
       @include flex(column, center, flex-start);
       li{
         &:hover{
+          width: 100%;
           background-color: $colorLightGrey;
         }
       }

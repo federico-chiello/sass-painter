@@ -159,6 +159,7 @@ li.dropdown-parent .dropdown ul {
   align-items: flex-start;
 }
 li.dropdown-parent .dropdown ul li:hover {
+  width: 100%;
   background-color: lightgrey;
 }
 li.dropdown-parent:hover .dropdown {

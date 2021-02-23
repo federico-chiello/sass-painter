@@ -20,15 +20,3 @@ $headerBottom: calc(#{$headerHeight} - #{$headerTop});
 
 // PADDING e MARGIN
 $pd_100: 100px;
-
-@for $i from 1 through 5 {
-  .padding-#{$i}{
-    padding-right: 10px*$i;
-  }
-}
-
-@for $i from 1 through 5 {
-  .pd_b-#{$i}{
-    padding-bottom: 10px*$i;
-  }
-}
